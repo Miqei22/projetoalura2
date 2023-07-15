@@ -144,7 +144,7 @@ body {
     color: var(--botao-azul);
 }
 
-@media (max-width: 896px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
     .principal {
         background: none;
         height: 140vh;
