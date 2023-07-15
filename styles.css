@@ -143,3 +143,35 @@ body {
 .lista__link a:hover {
     color: var(--botao-azul);
 }
+
+@media (max-width: 896px) and (orientation: landscape) {
+    .principal {
+        background: none;
+        height: 140vh;
+    }
+
+    .container__caixa {
+        margin: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .container__titulo {
+        margin: auto;
+        width: 90vw;
+    }
+
+    section > img {
+        width: 40vw;
+    }
+
+    .secundario {
+    width: 90vw;
+    height: 100vh;
+    }
+
+    .dispositivos__lista {
+        flex-direction: column;
+    }
+}
+
